@@ -1,0 +1,82 @@
+body{
+    background-color: pink;
+    margin: 0px;
+}
+
+nav, header{
+    text-align: center;
+    border: 2px solid pink;
+}
+
+nav{
+    height: 100px;
+    background-color: white;
+    width: 100%;
+margin: 0px; 
+}
+nav button{
+    background-color: pink;
+    height: 70px;
+    width: 100px;
+position: relative;
+top: 15px;
+border-radius: 60px;
+font-size: 20px;
+border: 1px solid white;
+color: white;
+}
+header{
+    background-color: pink;
+    color: white;
+    font-size: 30px;
+}
+
+.main{
+    background-color: white;
+    border: 2px solid pink;
+width: 900px;
+margin: auto auto;
+border-radius: 40px;
+}
+.intro, .info{
+    display: inline-block;
+    width: 400px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+}
+
+.intro{
+    position: relative;
+    bottom: 40px;
+
+    
+}
+
+.intro h1{
+    font-size: 50px;
+    color: pink;
+}
+
+.intro h3{
+    background-color: pink;
+    border-radius: 40px;
+}
+
+.info{
+    height: 100%;
+    background-color: pink;
+    
+    height: 100%;
+}
+
+#submit{
+    display: block;
+    margin: 10px auto;
+    background-color: pink;
+    color: white;
+    font-size: 30px;
+    border-radius: 40px;
+    border: 2px solid white;
+}
